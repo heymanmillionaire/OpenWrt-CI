@@ -20,6 +20,13 @@ on:
     - cron: 0 0 1 * *
   watch:
     types: started
+env:
+  REPO_URL: https://github.com/openwrt/openwrt.git
+  REPO_BRANCH: master
+  OpenWRTDevice: Beryl_gl-mt3000
+  CONFIG_FILE: .config
+  TZ: Europe/Berlin
+
 
 jobs:
   build:
