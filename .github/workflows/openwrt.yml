@@ -72,7 +72,6 @@ jobs:
       - name: Load custom configuration
         run: |
           make defconfig
-      #- name: Download package source code
       - name: Download package source code
         run: |
           make download -j8
