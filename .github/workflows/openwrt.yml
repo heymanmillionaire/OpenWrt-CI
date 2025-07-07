@@ -12,7 +12,7 @@ name: OpenWrt
 on:
   repository_dispatch:
   workflow_dispatch:
-on:
+
   push:
     branches: 
       - master
