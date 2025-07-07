@@ -76,7 +76,7 @@ jobs:
           cd openwrt
           
       #- name: Download package source code
-      - name: Download package
+      - name: Download package source code
         run: |
           make download -j8
           find dl -size -1024c -exec ls -l {} \;
